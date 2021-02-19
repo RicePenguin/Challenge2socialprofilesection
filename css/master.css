@@ -1,0 +1,195 @@
+body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+}
+
+table {
+  width: 70%;
+}
+
+/* divs */
+.topcontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.text1 {
+  font-size: 60px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  line-height: 0.99;
+}
+
+.text2 {
+  line-height: 1.5
+}
+
+.div2 {
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.content1 {
+  background-color: white;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 0.9rem;
+  padding: 3%;
+  width: 70%;
+}
+
+.content2 {
+  background-color: white;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 0.9rem;
+  padding: 3%;
+  width: 70%;
+  align-self: center;
+}
+
+.content3 {
+  background-color: white;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 0.9rem;
+  padding: 3%;
+  width: 70%;
+  align-self: flex-end;
+}
+
+.star {
+  margin: 0 2px;
+}
+
+.contenttxt {
+  margin-left: 30px;
+}
+
+.div3 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
+  height: 40%;
+  padding: 0;
+}
+
+.box1 {
+  background-color: white;
+  background-color: hsl(300, 43%, 22%);
+  width: 23%;
+  height: 65%;
+  color: white;
+  color: hsl(300, 24%, 96%);
+  margin: 0;
+  border-radius: 0.7rem;
+  padding: 25px;
+  align-self: flex-start;
+}
+
+.box2 {
+  background-color: white;
+  background-color: hsl(300, 43%, 22%);
+  width: 23%;
+  height: 65%;
+  color: white;
+  color: hsl(300, 24%, 96%);
+  margin: 0;
+  border-radius: 0.7rem;
+  padding: 25px;
+  align-self: center;
+}
+
+.box3 {
+  background-color: white;
+  background-color: hsl(300, 43%, 22%);
+  width: 23%;
+  height: 65%;
+  color: white;
+  color: hsl(300, 24%, 96%);
+  margin: 0;
+  border-radius: 0.7rem;
+  padding: 25px;
+  align-self: flex-end;
+}
+
+.pp {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.name {
+  display: inline-block;
+  margin: 5px auto;
+}
+
+.boxtext {
+  line-height: 1.5;
+}
+
+/* bg */
+.bgtop {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.bgbtm {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* colours */
+.magneta {
+  color: white;
+  color: hsl(300, 43%, 22%);
+}
+
+.pink {
+  color: white;
+  color: hsl(333, 80%, 67%);
+}
+
+.magneta-dgrey {
+  color: white;
+  color: hsl(303, 10%, 53%);
+}
+
+.magneta-lgrey {
+  color: white;
+  color: hsl(300, 24%, 96%)
+}
+
+.white {
+  color: White;
+  color: hsl(0, 0%, 100%);
+}
+
+.w-400 {
+  font-weight: 400
+}
+
+.w-500 {
+  font-weight: 500
+}
+
+.w-700 {
+  font-weight: 700
+}
+
+.border {
+  border: solid;
+}
